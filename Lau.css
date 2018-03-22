@@ -1,0 +1,148 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 20px;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+p {
+    font-size: 14px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.size12 {
+    font-size: 12px !important;
+}
+
+.size14 {
+    font-size: 14px !important;
+}
+
+.paragraph-spacing, img  {
+    margin-left: 5%;
+    margin-right: 5%;  
+}
+
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  bottom: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  display: block;
+}
+
+
+.backgroundslider, .backgroundslider2, .backgroundslider3, .backgroundslider4, .backgroundslider5 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 20em;
+  text-align: center;
+}
+
+.backgroundslider {
+    background-image: url("Images/engineer_banner2.jpg");
+}
+
+.backgroundslider2 {
+    background-image: url("Images/lines-of-code.jpg");
+}
+
+.backgroundslider3 {
+    background-image: url("Images/library.jpg");
+}
+
+.backgroundslider4 {
+    background-image: url("Images/volunteer.jpg");
+}
+
+.backgroundslider5 {
+    background-image: url("Images/lines-of-code.jpg");
+}
+
+.overview {
+	text-align: center;
+}
+
+.img-circle {
+    margin: 20px 0px;
+}
+
+.s1 {
+    color: white;
+    background-color: #496077;
+}
+
+.s2 {
+    color: white;
+    background-color: #34495e;
+}
+
+.s3 {
+    color: white;
+    background-color: #2c3e50;
+}
+
+.s1 a, .s2 a, .s3 a, .s4 a {
+    color: white;
+}
+
+.s4 {
+    background-color: #72A0C1  ;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+.jumbo1, section{
+    margin: 0px;
+}
+
+.btn {
+    color: white;
+}
+
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
